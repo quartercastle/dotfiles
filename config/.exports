@@ -1,0 +1,6 @@
+export SVN_EDITOR=nano
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+export PATH=/usr/local/bin:$PATH
+export PATH=./node_modules/.bin:$PATH
+export PATH=/usr/local/sbin:$PATH

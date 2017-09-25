@@ -1,0 +1,32 @@
+"*":
+  core:
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      ".nyc_output"
+      "coverage"
+      "node_modules"
+    ]
+    openEmptyEditorOnStart: false
+    telemetryConsent: "no"
+  editor:
+    fontSize: 10
+    lineHeight: 1.7
+    scrollPastEnd: true
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "3a4daa8a-fb56-4745-88da-cb76ef490cf1"
+  "file-icons":
+    coloured: false
+  "one-dark-ui":
+    hideDockButtons: true
+  "todo-show": {}
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
