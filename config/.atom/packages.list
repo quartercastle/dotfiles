@@ -7,3 +7,6 @@ language-babel@2.74.2
 language-docker@1.1.8
 language-ini@1.19.0
 todo-show@2.0.0
+atom-ide-ui@0.13.0
+ide-go@0.12.3
+go-plus@5.8.6
