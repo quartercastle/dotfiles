@@ -12,4 +12,6 @@ RUN apt-get update && \
         vim
 
 RUN ./bootstrap -f
+WORKDIR /root
+RUN rm -rf /tmp/dotfiles
 
