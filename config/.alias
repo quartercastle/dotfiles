@@ -1,2 +1,0 @@
-alias nbc=nbcompile
-alias fact="curl -s randomfunfacts.com | grep '<i>' | sed 's/.*<i>\(.*\)<\/i>.*/\1/'"
