@@ -24,7 +24,7 @@ if s:uname == "Darwin\n"
 	let s:palette.tabline.middle = s:palette.normal.middle
   highlight Normal ctermbg=none
   highlight nonText ctermbg=none
-  highlight MatchParen cterm=none ctermbg=yellow ctermfg=232 cterm=bold
+  highlight MatchParen cterm=none ctermbg=none ctermfg=red cterm=bold
   highlight Search cterm=bold ctermfg=none ctermbg=234
   highlight Visual ctermbg=234 cterm=bold
   highlight VertSplit ctermfg=black
