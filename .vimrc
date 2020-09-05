@@ -12,9 +12,8 @@ set textwidth=80
 
 source ~/.quartercastle/vim/plug.vim
 source ~/.quartercastle/vim/aliases.vim
-
-" Setup the colors and theme
 source ~/.quartercastle/vim/theme.vim
+source ~/.quartercastle/vim/syntax/go.vim
 
 " Press Space to turn off highlighting and clear any message already displayed.
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
