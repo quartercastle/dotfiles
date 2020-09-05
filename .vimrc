@@ -1,5 +1,3 @@
-source ~/.quartercastle/vim/plug.vim
-
 " General configuration
 set nocompatible
 set noshowmode
@@ -11,6 +9,9 @@ set hlsearch
 set expandtab
 set formatoptions=tcqro
 set textwidth=80
+
+source ~/.quartercastle/vim/plug.vim
+source ~/.quartercastle/vim/aliases.vim
 
 " Setup the colors and theme
 source ~/.quartercastle/vim/theme.vim
