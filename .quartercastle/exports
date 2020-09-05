@@ -1,0 +1,13 @@
+#!/bin/bash
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+
+# Paths
+export PATH=/usr/local/bin:$PATH
+export PATH=./node_modules/.bin:$PATH
+export PATH=/usr/local/sbin:$PATH
+export PATH=/usr/local/go/bin:$PATH
+
+# Default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
