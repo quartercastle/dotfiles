@@ -1,2 +1,26 @@
 node_modules
 .DS_Store
+ .CFUserTextEncoding
+.bash_history
+.cache/
+.config/
+.docker/
+.muttrc
+.node_repl_history
+.npm/
+.vim/
+.viminfo
+.zsh_history
+Applications/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+github.com/
+go/
+.Trash/
+.CFUserTextEncoding

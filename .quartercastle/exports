@@ -7,6 +7,7 @@ export PATH=/usr/local/bin:$PATH
 export PATH=./node_modules/.bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/go/bin:$PATH
+export PATH=~/go/bin:$PATH
 
 # Default editor
 export VISUAL=vim
