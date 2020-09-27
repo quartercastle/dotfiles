@@ -24,3 +24,7 @@ github.com/
 go/
 .Trash/
 .CFUserTextEncoding
+.atom/
+.dlv/
+.wget-hsts
+sent

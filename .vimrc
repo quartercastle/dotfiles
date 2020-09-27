@@ -2,11 +2,13 @@
 set nocompatible
 set noshowmode
 set noswapfile
+set nospell
 set number
 set nowrap
 set cursorline
 set hlsearch
 set expandtab
+set autoindent
 set formatoptions=tcqro
 set textwidth=80
 
@@ -45,4 +47,8 @@ let g:ctrlp_show_hidden = 1
 " Go settings
 let g:go_fmt_command = "goimports"
 let g:go_fmt_autosave = 1
+let g:go_highlight_diagnostic_warnings = 0
+
+
+
 

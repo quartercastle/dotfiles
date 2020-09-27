@@ -12,6 +12,8 @@ if (empty($TMUX))
 	endif
 endif
 
+set t_Co=256
+
 let s:uname = system("uname -s")
 
 if s:uname == "Darwin\n"
