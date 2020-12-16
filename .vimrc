@@ -11,6 +11,8 @@ set expandtab
 set autoindent
 set formatoptions=tcqro
 set textwidth=80
+set splitright
+set splitbelow
 
 source ~/.quartercastle/vim/plug.vim
 source ~/.quartercastle/vim/aliases.vim
@@ -19,6 +21,9 @@ source ~/.quartercastle/vim/syntax/go.vim
 
 " Press Space to turn off highlighting and clear any message already displayed.
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
+" goto file under cursor
+nnoremap gf <C-W>v gf
 
 " Set tabs to ident as 4 spaces in width
 set tabstop=4
@@ -42,7 +47,6 @@ let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
 let g:ctrlp_working_path_mode = 'mru'
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|bzr)$'
 let g:ctrlp_show_hidden = 1
-
 
 " Go settings
 let g:go_fmt_command = "goimports"
