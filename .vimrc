@@ -52,7 +52,5 @@ let g:ctrlp_show_hidden = 1
 let g:go_fmt_command = "goimports"
 let g:go_fmt_autosave = 1
 let g:go_highlight_diagnostic_warnings = 0
-
-
-
+let g:go_doc_url = "https://pkg.go.dev"
 

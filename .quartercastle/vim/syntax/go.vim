@@ -17,6 +17,6 @@ augroup ft_go
     autocmd Syntax go hi goComplexes ctermfg=magenta cterm=none
     autocmd Syntax go hi goBoolean ctermfg=173 guifg=#d19a66
     autocmd Syntax go hi goDeclType ctermfg=magenta cterm=none
-    autocmd Syntax go hi goBuiltins ctermfg=magenta cterm=none
+    autocmd Syntax go hi goBuiltins ctermfg=blue cterm=none
     autocmd syntax go hi SpellBad term=none cterm=none ctermbg=none gui=none guibg=none guisp=none
 augroup end
