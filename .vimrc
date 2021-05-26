@@ -31,6 +31,13 @@ set softtabstop=0 noexpandtab
 set shiftwidth=4
 set laststatus=2
 
+:let mapleader = "§"
+
+" Configure nerd commenter
+let g:NERDCreateDefaultMappings = 1
+let g:NERDSpaceDelims = 1
+let g:NERDCommentEmptyLines = 1
+
 " Configure nerd tree
 let NERDTreeShowHidden=1
 let NERDTreeIgnore = ['\.pyc$', '\.DS_Store$', '\.git$']

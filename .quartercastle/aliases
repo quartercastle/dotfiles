@@ -1,2 +1,4 @@
 #!/bin/bash
 alias nbc=nbcompile
+alias issues="gh issue list"
+alias pr="gh pr list"

@@ -10,6 +10,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'rakr/vim-one'
 Plug 'tpope/vim-fugitive'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'preservim/nerdcommenter'
 
 call plug#end()
 

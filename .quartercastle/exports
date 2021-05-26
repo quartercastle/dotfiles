@@ -1,6 +1,7 @@
 #!/bin/bash
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
+export DENO_INSTALL=~/.deno
 
 # Paths
 export PATH=/usr/local/bin:$PATH
@@ -8,7 +9,11 @@ export PATH=./node_modules/.bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/go/bin:$PATH
 export PATH=~/go/bin:$PATH
+export PATH="$DENO_INSTALL/bin:$PATH"
 
 # Default editor
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+# Golang
+export GOPRIVATE=github.com/DanaDynamics
