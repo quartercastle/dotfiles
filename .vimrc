@@ -52,7 +52,7 @@ let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
 
 " CTRL-P
 let g:ctrlp_working_path_mode = 'mru'
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|bzr)$'
+let g:ctrlp_custom_ignore = '\v[\/](\.(git|hg|svn|bzr)|node_modules)$'
 let g:ctrlp_show_hidden = 1
 
 " Go settings

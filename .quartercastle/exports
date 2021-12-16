@@ -9,7 +9,9 @@ export PATH=./node_modules/.bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/go/bin:$PATH
 export PATH=~/go/bin:$PATH
+export PATH=~/.quartercastle/bin:$PATH
 export PATH="$DENO_INSTALL/bin:$PATH"
+export PATH=$HOME/.cargo/env:$PATH
 
 # Default editor
 export VISUAL=vim
