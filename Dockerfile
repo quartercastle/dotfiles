@@ -9,8 +9,10 @@ RUN apt-get update && \
         wget \
         rsync \
         screen \
-        vim
+        vim \
+        zsh
 
+RUN chsh -s /usr/bin/zsh
 RUN ./bootstrap -f
 WORKDIR /root
 RUN rm -rf /tmp/dotfiles
