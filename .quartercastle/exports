@@ -12,6 +12,7 @@ export PATH=~/go/bin:$PATH
 export PATH=~/.quartercastle/bin:$PATH
 export PATH="$DENO_INSTALL/bin:$PATH"
 export PATH=$HOME/.cargo/env:$PATH
+export PATH="/opt/homebrew/bin:$PATH"
 
 # Default editor
 export VISUAL=vim
