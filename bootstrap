@@ -1,6 +1,9 @@
 #!/bin/bash
 
 function install() {
+	# TODO: Add option to build docker image on install
+	# docker buildx build --platform linux/amd64 -t quartercastle .
+
   # Install vim-plug
   curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
