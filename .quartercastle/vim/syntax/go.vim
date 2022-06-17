@@ -22,7 +22,7 @@ augroup ft_go
     autocmd Syntax go hi goTodo ctermfg=magenta  ctermbg=none cterm=none
     autocmd Syntax go hi goBuiltinsOverride ctermfg=white cterm=none
     autocmd syntax go hi SpellBad cterm=none ctermbg=none
-    if has('mac')
+    if has('macunix')
         autocmd syntax go hi SpellBad term=none cterm=none ctermbg=none gui=none guibg=none guisp=none
     endif
 augroup end
