@@ -11,6 +11,8 @@ Plug 'rakr/vim-one'
 Plug 'tpope/vim-fugitive'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'preservim/nerdcommenter'
+Plug 'vim-erlang/vim-erlang-runtime'
+Plug 'vim-erlang/vim-erlang-compiler'
 
 call plug#end()
 
