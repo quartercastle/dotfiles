@@ -2,7 +2,6 @@
 export TERM=xterm-256color
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
-export DENO_INSTALL=~/.deno
 
 # Paths
 export PATH=/usr/local/bin:$PATH
@@ -10,9 +9,10 @@ export PATH=./node_modules/.bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/go/bin:$PATH
 export PATH=~/go/bin:$PATH
-export PATH="$DENO_INSTALL/bin:$PATH"
+export PATH=~/.quartercastle/bin:$PATH
 export PATH="~/.cargo/bin:$PATH"
 export PATH="~/.local/bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
 
 # Default editor
 export VISUAL=vim

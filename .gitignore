@@ -39,3 +39,19 @@ google-cloud-sdk/
 .npmrc
 .standard-v13-cache/
 code/
+.Xauthority
+.dockerignore
+.kube/
+.matplotlib/
+.psql_history
+.quartercastle/bin/gsql-prod
+.tlog-server
+.tlog/
+.xgo-cache/
+.zsh_sessions/
+VirtualBox\ VMs/
+.cargo/
+.lesshst
+.profile
+.rustup/
+.zshenv
