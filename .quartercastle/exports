@@ -12,6 +12,7 @@ export PATH=/usr/local/go/bin:$PATH
 export PATH=~/go/bin:$PATH
 export PATH="$DENO_INSTALL/bin:$PATH"
 export PATH="~/.cargo/bin:$PATH"
+export PATH="~/.local/bin:$PATH"
 
 # Default editor
 export VISUAL=vim
