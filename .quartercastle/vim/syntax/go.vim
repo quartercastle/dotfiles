@@ -1,6 +1,6 @@
 augroup ft_go
     autocmd!
-    autocmd Syntax go syn match goFunction "\<[a-zA-Z_][a-zA-Z_0-9]*\>\s*("me=e-1
+    autocmd Syntax go syn match goFunction "\<[a-zA-Z_][a-zA-Z_0-9]*\>\s*[(|\[]"me=e-1
     autocmd Syntax go syn match goConstOverride "const\s*("me=e-1
     autocmd Syntax go syn match goImportOverride "import\s*("me=e-1
     autocmd Syntax go syn match goVarOverride "var\s*("me=e-1
