@@ -9,3 +9,8 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[credential "https://github.com"]
+	helper = !/usr/local/bin/gh auth git-credential
+[user]
+	name = quartercastle
+	email = hello@kvartborg.net

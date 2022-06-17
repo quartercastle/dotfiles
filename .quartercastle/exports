@@ -18,5 +18,3 @@ export PATH="/opt/homebrew/bin:$PATH"
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
-# Golang
-export GOPRIVATE=github.com/DanaDynamics
