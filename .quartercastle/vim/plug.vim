@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
+Plug 'mg979/vim-visual-multi'
 Plug 'joshdick/onedark.vim'
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
