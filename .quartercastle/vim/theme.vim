@@ -12,6 +12,10 @@ if (empty($TMUX))
   endif
 endif
 
+if exists('$TMUX')
+  set termguicolors
+endif
+
 set t_Co=256
 
 let s:uname = system("uname -s")
