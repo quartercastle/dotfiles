@@ -18,31 +18,7 @@ endif
 
 set t_Co=256
 
-let s:uname = system("uname -s")
-
-if s:uname == "Darwin\n"
-  syntax on
-  colorscheme one
-  let g:lightline = { 'colorscheme': 'onedark' }
-  let s:palette = g:lightline#colorscheme#{g:lightline.colorscheme}#palette
-  let s:palette.normal.middle = [ [ 'none', 'none', 'none', 'none' ] ]
-  let s:palette.inactive.middle = s:palette.normal.middle
-  let s:palette.tabline.middle = s:palette.normal.middle
-  highlight Normal ctermbg=none
-  highlight nonText ctermbg=none
-  highlight MatchParen cterm=none ctermbg=none ctermfg=red cterm=bold
-  highlight Search cterm=bold ctermfg=none ctermbg=234
-  highlight Visual ctermbg=234 cterm=bold
-  highlight VertSplit ctermfg=black
-  highlight CursorLine ctermbg=black cterm=bold
-  highlight CursorLineNR ctermbg=black cterm=bold
-  highlight StatusLine ctermbg=none
-else
-  set background=dark
-  syntax on
-  colorscheme one
-  let g:lightline = { 'colorscheme': 'one' }
-endif
-
-
-
+set background=dark
+syntax on
+colorscheme one
+let g:lightline = { 'colorscheme': 'one' }
