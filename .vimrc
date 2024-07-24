@@ -13,6 +13,7 @@ set formatoptions=tcqro
 set textwidth=80
 set splitright
 set splitbelow
+set clipboard=unnamed
 
 source ~/.quartercastle/vim/plug.vim
 source ~/.quartercastle/vim/aliases.vim
@@ -40,7 +41,7 @@ let g:NERDCommentEmptyLines = 1
 
 " Configure nerd tree
 let NERDTreeShowHidden=1
-let NERDTreeIgnore = ['\.pyc$', '\.DS_Store$', '\.git$']
+let NERDTreeIgnore = ['\.pyc$', '\.DS_Store$', '\.git$', '\.serverless', '\.pytest_cache']
 map <C-b> :NERDTreeToggle<CR>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -52,7 +53,7 @@ let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
 
 " CTRL-P
 let g:ctrlp_working_path_mode = 'mru'
-let g:ctrlp_custom_ignore = '\v[\/](\.(git|hg|svn|bzr)|node_modules)$'
+let g:ctrlp_custom_ignore = '\v[\/](\.(git|hg|svn|bzr|serverless|pytest_cache)|node_modules)$'
 let g:ctrlp_show_hidden = 1
 
 " Go settings

@@ -2,6 +2,7 @@
 	st = status -s
 	graph = log --oneline --decorate --graph
 	ls = log --oneline
+	contributors = shortlog -n -s -e
 [core]
 	excludesfile = ~/.gitignore
 [filter "lfs"]

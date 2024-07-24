@@ -1,6 +1,5 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'mg979/vim-visual-multi'
 Plug 'joshdick/onedark.vim'
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
@@ -12,8 +11,10 @@ Plug 'rakr/vim-one'
 Plug 'tpope/vim-fugitive'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'preservim/nerdcommenter'
-Plug 'vim-erlang/vim-erlang-runtime'
-Plug 'vim-erlang/vim-erlang-compiler'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'dhruvasagar/vim-table-mode'
+Plug 'ziglang/zig.vim'
+Plug 'github/copilot.vim'
 
 call plug#end()
 
