@@ -2,7 +2,6 @@
 source ~/.quartercastle/exports
 source ~/.quartercastle/aliases
 source ~/.quartercastle/bin/git-prompt
-source ~/.tv2/lib/aws.sh
 
 autoload -U colors && colors
 
