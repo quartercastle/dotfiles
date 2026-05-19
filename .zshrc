@@ -11,5 +11,5 @@ precmd() {
     aws_environment="%{$fg[red]%}${AWS_PROFILE}%{$reset_color%}"
   fi
 
-  PROMPT=$'\n'"%{$fg[magenta]%}%n@%m%{$reset_color%} %{$fg[blue]%}%~%{$reset_color%} %{$fg[green]%}$(git rev-parse --abbrev-ref HEAD %s)%{$reset_color%} ${aws_environment}"$'\n'" → "
+  PROMPT=$'\n'"%{$fg[magenta]%}%n@%m%{$reset_color%} %{$fg[blue]%}%~%{$reset_color%} %{$fg[green]%}$(git rev-parse --abbrev-ref HEAD)%{$reset_color%} ${aws_environment}"$'\n'" → "
 }
