@@ -1,6 +1,6 @@
 # dotfiles
 
-Personal dotfiles by [Frederik Kvartborg Albertsen](https://github.com/quartercastle).
+Personal dotfiles by [@quartercastle](https://github.com/quartercastle).
 
 ## Contents
 
