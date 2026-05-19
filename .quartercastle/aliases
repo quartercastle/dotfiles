@@ -1,0 +1,10 @@
+#!/bin/bash
+alias issues="gh issue list"
+alias issue="gh issue list"
+alias prs="gh pr list"
+alias pr="gh pr list"
+alias prv="gh pr view"
+alias repo="gh repo view"
+alias cat="bat --paging=never"
+#alias vim="zed"
+#alias vim="nvim"

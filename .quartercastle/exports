@@ -1,0 +1,17 @@
+#!/bin/bash
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+
+# Paths
+export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/sbin:$PATH
+export PATH=/usr/local/go/bin:$PATH
+export PATH=~/.quartercastle/bin:$PATH
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH=~/go/bin:$PATH
+
+# Default editor
+if [[ $VISUAL != *"zed"* ]]; then
+  export VISUAL="vim"
+  export EDITOR="$VISUAL"
+fi

@@ -1,0 +1,23 @@
+[user]
+	email =
+	name =
+	signingkey =
+[alias]
+	st = status -s
+	graph = log --oneline --decorate --graph
+	ls = log --oneline
+	tags = log --tags --oneline --no-walk
+	contributors = shortlog -n -s -e
+[core]
+	excludesfile = ~/.gitignore
+[commit]
+	gpgsign = false
+[tag]
+	gpgSign = false
+[diff "color"]
+	commit = magenta
+[color "decorate"]
+	HEAD = blue
+	branch = blue
+	remoteBranch = blue
+	tag = blue

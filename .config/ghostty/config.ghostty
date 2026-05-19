@@ -1,0 +1,11 @@
+font-family = "menlo"
+unfocused-split-opacity = 1
+title = "terminal"
+macos-titlebar-style = "transparent"
+macos-titlebar-proxy-icon = "hidden"
+theme = "One Half Dark"
+window-padding-x = 6
+window-padding-y = 6
+window-save-state = always
+#cursor-style = block
+
