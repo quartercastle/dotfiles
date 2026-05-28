@@ -5,8 +5,6 @@ function install() {
 	# docker buildx build --platform linux/amd64 -t quartercastle .
 
 	rsync --exclude ".DS_Store" -avh --no-perms . ~
-
-	chsh -s /bin/zsh
 	source ~/.zshrc
 }
 

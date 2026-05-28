@@ -12,14 +12,30 @@ RUN apt-get update && \
         neovim \
         zsh \
         ffmpeg \
+        software-properties-common \
         mediainfo
 
-RUN curl -fsSL https://opencode.ai/install | bash
-ENV HOME=/root/.opencode/bin:$HOME
+RUN add-apt-repository ppa:dotnet/backports \
+  && apt update \
+  && apt install -y \
+      dotnet-sdk-8.0
 
-RUN chsh -s /usr/bin/zsh
+RUN useradd -ms /usr/bin/zsh --create-home quartercastle
+
+USER quartercastle
+
+
+ENV PATH=/home/quartercastle/.opencode/bin:$PATH
+ENV HOME=/home/quartercastle
+RUN curl -fsSL https://opencode.ai/install | bash
+
 RUN ./bootstrap -f
+RUN nvim --headless '+Lazy install' +q
+RUN git config --global --add safe.directory /home/quartercastle/workspace
+
+USER root
 RUN rm ./bootstrap
-WORKDIR /workspace
 RUN rm -rf /tmp/dotfiles
+USER quartercastle
+WORKDIR /home/quartercastle
 CMD ["/bin/zsh"]
