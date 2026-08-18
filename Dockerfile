@@ -12,6 +12,7 @@ RUN apt-get update && \
         neovim \
         zsh \
         ffmpeg \
+        golang \
         software-properties-common \
         mediainfo
 
