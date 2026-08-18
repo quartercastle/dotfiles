@@ -1,8 +1,6 @@
 #!/bin/bash
 
 function install() {
-  # TODO: Add option to build docker image on install
-  # docker buildx build --platform linux/amd64 -t quartercastle .
   rsync \
     --exclude ".DS_Store" \
     --exclude ".git" \
@@ -10,8 +8,11 @@ function install() {
     --exclude ".gitmodules" \
     --exclude "bootstrap" \
     --exclude ".dockerignore" \
+    --exclude "LICENSE" \
     --ignore-existing \
     -avh --no-perms . ~
+
+  cp LICSENSE ~/.quartercastle/LICENSE
   source ~/.zshrc
 }
 
